@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    width:100%;
+    Height: 160px;
+    padding: 15px;
+    background: grey;
+    font-size: 40px;
+    text-align: center;
+}
+
+.art1{
+    width:100%;
+    Height: 200px;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.art2{
+    width:100%;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.art3{
+    width:100%;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+.title1
+{
+     font-size: 60px;
+ }
+
+
+
+[class*='title']
+{
+    font-family: "Brush Script MT", cursive;
+}
+
+.col-1 {
+     width: 30%;
+     /*height: 10px;*/
+     font-size: 25px;
+     marigin: 10px;
+
+ }
+
+.row1{
+    overflow: auto;
+    height: 150px;
+
+}
+
+.row2{
+
+
+    height:300px;
+}
+
+.row3{
+    overflow: auto;
+
+    height:400px;
+}
+
+.col-2 {
+    width: 30%;
+    height: 100px;
+    font-size: 16px;
+    marigin: 10px;
+
+}
+
+.col-3 {
+    width: 47%;
+    height: 100px;
+    font-size: 20px;
+    marigin: 10px;
+
+}
+
+[class*='col-'] { /* This css rule applies to any element that has the string "col-" in its class*/
+ float: left;
+    min-height: 20px;
+    /*-- our gutter inside each cell around it's content, change the value to see how it works--*/
+    padding: 15px;
+}
+    /*border: .5px solid red;
+    /**********Another way to set background color: Change the number values in it and see what happens**********/
+    /*background: rgba(76, 175, 80, 0.3);
+}
